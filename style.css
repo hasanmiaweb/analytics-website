@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Main menu start*/
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #13131300;
+  border: 1px solid #39b54a;
+  border-radius: 0.25rem;
+  transition: box-shadow 0.15s ease-in-out;
+}
+.navbar-toggler span i {
+  color: #00ff5e;
+}
+.navbar-nav .nav-item .active {
+  color: #c5c5c5 !important;
+  font-size: 14px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 14px;
+}
+.course {
+  color: white;
+  background: #38b34a;
+  font-weight: 700;
+  transition: 0.5s ease !important;
+}
+
+.course:hover {
+  color: #ffffff;
+  background: red;
+  transition: 0.3s ease !important;
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(14 36 58) !important;
+}
+nav.navbar {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/*Main menu end*/
+
+/*Hero Section start*/
+.hero-section {
+  background-image: url(images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-man-image img {
+  width: 400px;
+}
+.hero-title-text h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+.hero-dec p {
+  color: white;
+  line-height: 1.8;
+}
+.herobuttons.btn {
+  background: #38b34a;
+  width: 150px;
+  color: white;
+}
+.herobuttons.btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.hero-title-text {
+  padding-top: 115px;
+}
+.hero-title-text span {
+  color: #38b34a;
+}
+/*Hero Section end*/
+
+/*Services Section Start*/
+.services-main-section {
+  background-image: url(images/servicesbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services-title-text h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.services-title-text span {
+  color: #38b34a;
+}
+
+.services-title-text {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.services-dec p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #000;
+}
+.serices-btn {
+  text-align: center;
+}
+
+.serices-btn a {
+  background: #38b34a;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/*Services Section end*/
